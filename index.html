@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"
+      defer
+    ></script>
+    <script
+      src="https://code.angularjs.org/1.8.2/angular-route.min.js"
+      defer
+    ></script>
+    <script src="./app.module.js" defer></script>
+    <script src="./app.config.js" defer></script>
+
+    <script src="myHeader/myHeader.module.js" defer></script>
+    <script src="myHeader/myHeader.component.js" defer></script>
+    <script src="myProperties/myProperties.module.js" defer></script>
+    <script src="myProperties/myProperties.component.js" defer></script>
+    <script src="aboutUs/aboutUs.module.js" defer></script>
+    <script src="aboutUs/aboutUs.component.js" defer></script>
+    <script src="contactUs/contactUs.module.js" defer></script>
+    <script src="contactUs/contactUs.component.js" defer></script>
+    <script src="mainComponent/mainComponent.module.js" defer></script>
+    <script src="mainComponent/mainComponent.component.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <my-header> </my-header>
+    <ng-view> </ng-view>
+  </body>
+</html>
